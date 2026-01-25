@@ -256,6 +256,10 @@ function displayPlaylistResult(playlist) {
                             <i class="fas fa-user"></i>
                             <span>${track.artist}</span>
                         </p>
+                        <p class="track-item-meta">
+                            <i class="fas fa-clock"></i>
+                            <span>${track.duration}</span>
+                        </p>
                     </div>
                     <div class="track-item-actions">
                         <button class="get-download-btn" onclick="getTrackDownload('${track.track_url}', ${index})">
