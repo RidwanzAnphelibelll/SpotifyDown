@@ -204,10 +204,6 @@ function displayTrackResult(track) {
                         <span>${track.artist}</span>
                     </p>
                     <p class="track-meta">
-                        <i class="fas fa-compact-disc"></i>
-                        <span>${track.album}</span>
-                    </p>
-                    <p class="track-meta">
                         <i class="fas fa-clock"></i>
                         <span>${track.duration}</span>
                     </p>
