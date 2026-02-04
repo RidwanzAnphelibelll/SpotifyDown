@@ -127,12 +127,13 @@ function getSpotifyData(url) {
     loader.classList.add('active');
     errorMessage.classList.remove('active');
     resultContainer.style.display = 'none';
+    
     if (noResultContainer) {
         noResultContainer.style.display = 'none';
     }
     
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', API_BASE_URL + 'api/download?url=' + encodeURIComponent(url), true);
+    xhr.open('GET', API_BASE_URL + 'api/get-info?url=' + encodeURIComponent(url), true);
     
     xhr.onload = function() {
         loader.classList.remove('active');
@@ -216,7 +217,7 @@ function displayTrackResult(track) {
             
             <div class="track-download-section">
                 <h3><i class="fas fa-download"></i> Download Options</h3>
-                <div class="music-info">
+                <div class="quality-info">
                     <i class="fas fa-music"></i>
                     <span>Download music in MP3 format</span>
                 </div>
