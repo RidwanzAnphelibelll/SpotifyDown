@@ -585,7 +585,7 @@ body::before {
     color: var(--primary-color);
 }
 
-.quality-info {
+.music-info {
     background: rgba(29, 185, 84, 0.1);
     padding: 12px 16px;
     border-radius: 10px;
@@ -597,7 +597,7 @@ body::before {
     gap: 10px;
 }
 
-.quality-info i {
+.music-info i {
     color: var(--primary-color);
     font-size: 18px;
 }
