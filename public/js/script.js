@@ -217,7 +217,7 @@ function displayTrackResult(track) {
             
             <div class="track-download-section">
                 <h3><i class="fas fa-download"></i> Download Options</h3>
-                <div class="quality-info">
+                <div class="music-info">
                     <i class="fas fa-music"></i>
                     <span>Download music in MP3 format</span>
                 </div>
